@@ -1,0 +1,36 @@
+#Btn{
+    color: #2a75bb;
+    background-color: transparent;
+    border: 1px solid #2a75bb;
+    /* border-radius: 100px; */
+    font-size:smaller;
+    font-weight:bold;
+    width: 100px;
+    height: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.2s;
+
+    }
+    @keyframes shareMe {
+    from {
+    }
+    to {
+    background-color: #2a75bb;
+    color: rgb(253, 253, 253);
+    }
+    }
+    @keyframes plane {
+    from {
+    }
+    to {
+    color: #e5e5e5;
+    transform: translatex(20px);
+    }
+    }
+    #Btn:hover {
+    animation: shareMe 0.5s forwards;
+    }
+    #Btn:hover > #plane {
+    animation: plane 1s forwards;
+    }

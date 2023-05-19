@@ -1,0 +1,170 @@
+
+:root {
+    --fire: #FDDFDF;
+    --grass: #DEFDE0;
+    --electric: #FCF7DE;
+    --water: #DEF3FD;
+    --ground: #f4e7da;
+    --rock: #d5d5d4;
+    --fairy: #fceaff;
+    --poison: #98d7a5;
+    --bug: #f8d5a3;
+    --dragon: #97b3e6;
+    --psychic: #eaeda1;
+    --flying: #F5F5F5;
+    --fighting: #E6E0D4;
+    --normal:   #F5F5F5;
+    --ice:#97b3e6;
+    --bordeRadio:30px;
+
+  }
+
+.card{
+    width: 300px;
+    margin: 10px;
+    transition: all 300ms;
+}
+
+.card:hover{
+    width: 350px;
+}
+
+.card .cover{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card .cover img{
+    width: 250px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    z-index: 1;
+    filter: drop-shadow(5px 5px 4px rgba(0,0,0,0.5));
+    transition: all 400ms;
+}
+
+
+.card:hover .cover img{
+    top: 0px;
+    filter: none;
+}
+
+.card .img__back{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    background-size: cover;
+    border-radius: 20px;
+    transition: all 300ms;
+}
+
+.card .img__back{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    background-size: cover;
+    border-radius: 20px;
+    transition: all 300ms;
+}
+
+
+.card:hover .img__back{
+    bottom: -40px;
+}
+
+
+
+.card .description{
+    background:   #2a75bb;
+    margin-top: -10px;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    transition: all 300ms;
+    text-decoration: none;
+}
+
+.card:hover .description{
+    padding: 40px;
+}
+
+.text{
+    color: #eff1f3;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+
+.card .fire{
+    background:var(--fire);
+    border-radius: var(--bordeRadio);
+}
+
+.card .grass{
+    background:var(--grass);
+    border-radius: var(--bordeRadio);
+    
+}
+.card .electric{
+    background:var(--electric);
+    border-radius:  var(--bordeRadio);
+}
+.card .water{
+    background:var(--water);
+    border-radius:  var(--bordeRadio);
+}
+.card .ground{
+    background:var(--ground);
+    border-radius:  var(--bordeRadio);
+}
+.card .rock{
+    background: var(--rock);
+    border-radius: var(--bordeRadio);
+}
+.card .fairy{
+    background:var(--fairy);
+    border-radius:  var(--bordeRadio);
+}
+.card .poison{
+    background: var(--poison);
+    border-radius:  var(--bordeRadio);
+}
+.card .bug{
+    background:var(--bug);
+    border-radius:  var(--bordeRadio);
+}
+.card .dragon{
+    background:var(--dragon);
+    border-radius:  var(--bordeRadio);
+}
+.card .psychic{
+    background:var(--psychic);
+    border-radius: var(--bordeRadio);
+}
+
+.card .flying{
+    background:var(--flying);
+    border-radius:  var(--bordeRadio);
+}
+
+.card .fighting{
+    background:var(--fighting);
+    border-radius:  var(--bordeRadio);
+}
+
+.card .normal{
+    background:var(--normal);
+    border-radius:  var(--bordeRadio);
+}
+
+.card .ice{
+    background:var(--ice);
+    border-radius:  var(--bordeRadio);
+}

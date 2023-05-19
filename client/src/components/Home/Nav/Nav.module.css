@@ -1,0 +1,61 @@
+
+
+
+  @media only screen and (min-width: 800px) {
+    .main_container{
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      background: #fed766;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .main_container{
+      justify-content: space-between;
+      padding: 10px;
+      background: #fed766;
+    }
+  }
+
+  #Btn {
+    color: #2a75bb;
+    background-color: transparent;
+    border: 2px solid #2a75bb;
+    border-radius: 100px;
+    font-size:x-large;
+    font-weight:bold;
+    width: 30px;
+    height: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.2s;
+
+    }
+    @keyframes shareMe {
+    from {
+    }
+    to {
+    background-color: #2a75bb;
+    color: rgb(253, 253, 253);
+    }
+    }
+    @keyframes plane {
+    from {
+    }
+    to {
+    color: #e5e5e5;
+    transform: translatex(20px);
+    }
+    }
+    #Btn:hover {
+    animation: shareMe 0.5s forwards;
+    }
+    #Btn:hover > #plane {
+    animation: plane 1s forwards;
+    }
+
+    .contexAdd{
+      align-self:center;
+      margin-right:1%;
+    }

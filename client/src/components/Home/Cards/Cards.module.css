@@ -1,0 +1,12 @@
+.container__cards{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.eleiminaLink{
+    text-decoration: none;
+}

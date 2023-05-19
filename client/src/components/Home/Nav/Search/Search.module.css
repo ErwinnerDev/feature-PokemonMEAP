@@ -1,0 +1,26 @@
+
+  .input_group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .style_input {
+    flex-grow: 1;
+    height: 40px;
+    width: 540px;;
+    border: none;
+    outline: none;
+    transition: all 50ms ease-in-out;
+    font-size: 1.4rem;
+    border-radius:2px;
+    border:0 rgba(0,0,0,.2);
+    
+  }
+
+  .button{
+    height: 42px;
+    color: black;
+    background: white;
+  }

@@ -1,0 +1,24 @@
+export const API_POKEMON='http://localhost:3001/pokemon';
+export const API_TYPES='http://localhost:3001/types';
+export const API_CREATE='http://localhost:3001/pokemon';
+export const API_DELETE='http://localhost:3001/pokemon';
+export const API_UPDATE='http://localhost:3001/pokemon';
+export const GET_POKEMONS="getPokemons";
+export const GET_POKEMON_NAME="getPokemonByName";
+export const GET_TYPES="getTypes";
+export const POST_CREATE_POKEMON="postCreatePokemon";
+export const DELETE_POKEMON="deletePokemon";
+export const UPDATE_POKEMON="updatePokemon";
+export const FILTER_ORDER_NAME="filterOrdenByName";
+export const FILTER_ORDER_FUERZA="filterPokemonByFuerza";
+export const FILTER_POKEMON_DETALLE="filterPokemonDetalle";
+export const FILTER_POKEMON="filterPokemon";
+export const SET_POKEMON_DETALLE="clearPokemonDetalle";
+export const SET_STATUS_REFRESH="setStatusRefresh";
+export const SET_STATUS_404="setstatus404";
+export const SET_POKEMONS="resetPokemons";
+export const SET_FILTER="clearFilter"; 
+export const SET_ORDER="serOrder";
+export const SET_PAGINA_ACTUAL="setPaginaActual";
+export const SET_DETALLE_UPDATE="setDetalleUpdate";
+

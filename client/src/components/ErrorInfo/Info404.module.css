@@ -1,0 +1,28 @@
+.styleTitle{
+    /* font-family: 'Pokemon Solid', sans-serif; */
+    color: #ffcb05;
+    -webkit-text-stroke: 0.1rem #2a75bb;
+    margin: 0;
+    font-size: 90px;
+    border-block-end-width: revert;
+    /* color: white; */
+    font-weight: 600;
+}
+
+.styleMessage{
+    font-size: x-large;
+    font-weight: 700;
+    color: #eff1f3;
+    /* color: #ffcb05; */
+    /* -webkit-text-stroke: 0.1rem #2a75bb; */
+}
+
+.fondo{
+    width:100%;
+    height:100%;
+    position:fixed;
+    /* flex: auto; */
+    background:rgba(0,159,183,0.7);
+    justify-items: center;
+
+    }

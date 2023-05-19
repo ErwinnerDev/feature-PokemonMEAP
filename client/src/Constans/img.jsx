@@ -1,0 +1,1 @@
+export const IMG_POKEMON_DAFULT='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/132.png';

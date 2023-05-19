@@ -1,0 +1,286 @@
+
+:root {
+    --radio:30px;
+    --opacidas: 1;
+    --fire: #FDDFDF;
+    --grass: #DEFDE0;
+    --electric: #FCF7DE;
+    --water: #DEF3FD;
+    --ground: #f4e7da;
+    --rock: #d5d5d4;
+    --fairy: #fceaff;
+    --poison: #98d7a5;
+    --bug: #f8d5a3;
+    --dragon: #97b3e6;
+    --psychic: #eaeda1;
+    --flying: #F5F5F5;
+    --fighting: #E6E0D4;
+    --normal:   #F5F5F5;
+    --ice:#97b3e6;
+    --bordeRadio:20px;
+    --width:200px;
+    --margin:10px;
+
+    --yellow: #ffcb05;
+    --bottonBoBack:#2a75bba2;
+    --bottonDelete:#bb2a2a86;
+    --buttonUpdate:#dfd547a2;
+    --anchobotton:150px;
+    --altobotton:35px;
+  }
+
+  .container__rypes{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.fondo{
+    max-width:100%;
+    flex: auto;
+    padding:20px 0px 50px 0px;
+    background:rgba(0,159,183,0.8);
+
+    /*width:100%; */
+    height:100%;
+    flex: auto;
+    /*padding:20px 0px 50px 0px;*/
+    background:rgba(0,159,183,0.7);
+    }
+
+.contenedorEstaditica {
+    background:rgba(0,159,183,0.7);  
+    border-radius: 25px;
+    border: 1px solid #362abb;
+    max-width: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:max-content;
+    padding:5px 20px;
+}
+.value {
+    font-size:xx-large;
+}
+
+
+.margenConterSubDiv{
+    margin: 0px 20px;
+}
+
+    
+    .fire{
+        background:var(--fire);
+        border-radius:var(--radio);
+        opacity: var(--opacidas);
+        border-radius: var(--bordeRadio);
+        width: var(--width);
+        margin: var(--margin);
+    }
+    
+    .grass{
+        background:var(--grass);
+        border-radius:var(--radio);
+        opacity: var(--opacidas);
+        border-radius: var(--bordeRadio);
+        width: var(--width);
+        margin: var(--margin);
+        
+    }
+    .electric{
+        background:var(--electric);
+        border-radius:var(--radio);
+        opacity: var(--opacidas);
+        border-radius: var(--bordeRadio);
+        width: var(--width);
+        margin: var(--margin);
+    }
+    .water{
+        background:var(--water);
+        border-radius:var(--radio);
+        opacity: var(--opacidas);
+        border-radius: var(--bordeRadio);
+        width: var(--width);
+        margin: var(--margin);
+    }
+    .ground{
+        background:var(--ground);
+        border-radius:var(--radio);
+        opacity: var(--opacidas);
+        border-radius: var(--bordeRadio);
+        width: var(--width);
+        margin: var(--margin);
+    }
+    .rock{
+        background:var(--rock);
+        border-radius:var(--radio);
+        opacity: var(--opacidas);
+        border-radius: var(--bordeRadio);
+        width: var(--width);
+        margin: var(--margin);
+    }
+    .fairy{
+        background:var(--fairy);
+        border-radius:var(--radio);
+        opacity: var(--opacidas);
+        border-radius: var(--bordeRadio);
+        width: var(--width);
+        margin: var(--margin);
+    }
+    .poison{
+        background: var(--poison);
+        border-radius:var(--radio);
+        opacity: var(--opacidas);
+        border-radius: var(--bordeRadio);
+        width: var(--width);
+        margin: var(--margin);
+    }
+    .bug{
+        background:var(--bug);
+        border-radius:var(--radio);
+        opacity: var(--opacidas);
+        border-radius: var(--bordeRadio);
+        width: var(--width);
+        margin: var(--margin);
+    }
+    .dragon{
+        background:var(--dragon);
+        border-radius:var(--radio);
+        opacity: var(--opacidas);
+        border-radius: var(--bordeRadio);
+        width: var(--width);
+        margin: var(--margin);
+    }
+    .psychic{
+        background:var(--psychic);
+        border-radius:var(--radio);
+        opacity: var(--opacidas);
+        border-radius: var(--bordeRadio);
+        width: var(--width);
+        margin: var(--margin);
+    }
+    
+    .flying{
+        background:var(--flying);
+        border-radius:var(--radio);
+        opacity: var(--opacidas);
+        border-radius: var(--bordeRadio);
+        width: var(--width);
+        margin: var(--margin);
+    }
+    
+    .fighting{
+        background:var(--fighting);
+        border-radius:var(--radio);
+        opacity: var(--opacidas);
+        border-radius: var(--bordeRadio);
+        width: var(--width);
+        margin: var(--margin);
+    }
+    
+    .normal{
+        background:var(--normal);
+        border-radius:var(--radio);
+        opacity: var(--opacidas);
+        border-radius: var(--bordeRadio);
+        width: var(--width);
+        margin: var(--margin);
+    }
+    
+    .ice{
+        background:var(--ice);
+        border-radius:var(--radio);
+        opacity: var(--opacidas);
+        border-radius: var(--bordeRadio);
+        width: var(--width);
+        margin: var(--margin);
+    }
+
+.contendorBotones{
+    margin: 15px;
+}
+
+/* //////////////botones ///////////// */
+
+
+
+.goBack {
+    
+    color: var(--yellow);
+    background-color: transparent;
+    border: 3px solid #0c508fa2;
+
+    border-radius: 100px;
+    font-size:large;
+    font-weight:bold;
+
+    width: 150px;
+    height: 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.2s;
+    margin: 10px;;
+
+    }
+
+    .goBack:hover{
+        background-color: var(--bottonBoBack);
+        color: rgb(253, 253, 253);
+    }
+
+
+
+.btnDelete {
+    
+    color: var(--yellow);
+    background-color: transparent;
+    border: 3px solid var(--bottonDelete);
+
+    border-radius: 100px;
+    font-size:large;
+    font-weight:bold;
+
+    width: 150px;
+    height: 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.2s;
+    margin: 10px;;
+}
+       
+.btnDelete:hover {
+    background-color: var(--bottonDelete);
+    color: rgb(253, 253, 253);
+}
+    
+.btnUpdate {
+    color: var(--yellow);
+    background-color: transparent;
+    border: 3px solid var(--buttonUpdate);
+    
+    border-radius: 100px;
+    font-size:large;
+    font-weight:bold;
+
+    width: 150px;
+    height: 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.2s;
+    margin: 10px;;
+
+    }
+
+    .btnUpdate:hover{
+        background-color: var(--buttonUpdate);
+        color: rgb(253, 253, 253);
+
+    }
+
+        
+        
